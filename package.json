@@ -3,7 +3,8 @@
   , "version": "0.0.1"
   , "private": true
   , "dependencies": {
-      "express": "2.5.5"
-    , "jade": ">= 0.0.1"
+      "express":      "   2.5.5"
+    , "connect-auth": ">= 0.4.1"
+    , "haml-coffee":  ">= 0.5.5"
   }
 }

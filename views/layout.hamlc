@@ -1,0 +1,12 @@
+!!!
+%head
+  %title Cheque
+%body
+  - notice = @flash('notice')
+  - if notice and notice.length > 0
+    #notice= notice
+  - if @signed_in
+    #header
+      %form{action='/sessions/destroy' method='post'}
+        %input{type='submit' value='Log out'}
+  != @body
